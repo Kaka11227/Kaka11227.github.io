@@ -1,0 +1,51 @@
+.sidenav{
+        width: 240px;
+        position: fixed;
+        z-index: 1;
+        top: 150px;
+        left: 0px;
+        background-color: azure;
+        overflow-x: hidden;
+        padding: 10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+
+    .sidenav a {
+        padding: 25px 25px 10px 25px;
+        text-decoration: none;
+        font-size: 22px;
+        color: 82A8C5;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a.active {
+        color:black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        color:C9AE8C;
+    }
+    body{
+        margin: 0;
+    }
+    /*设置页眉的样式*/
+    .header{
+        background-color:azure;
+        padding:20px;
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .main {
+        margin-left: 240px; /*与sidenav宽度相同*/
+        font-size: 22px; 
+        padding: 0px 30px;
+    }
+    .right-float {
+        float: right;
+        max-width: 90%;
+        height:auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .main {
+        font-family: Arial, Helvetica, sans-serif;
+    }
